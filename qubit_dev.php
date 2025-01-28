@@ -5,6 +5,7 @@
 // something more sophisticated.
 
 $allowedIps = array('127.0.0.1', '::1');
+
 if (false !== $envIp = getenv('ATOM_DEBUG_IP'))
 {
   $allowedIps = array_merge($allowedIps, array_filter(explode(',', $envIp)));
