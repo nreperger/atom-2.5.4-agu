@@ -1,0 +1,5 @@
+# plugins/sfReferenceCodePlugin/sfReferenceCodePlugin.yml
+name: sfReferenceCodePlugin
+version: 1.0.0
+author: Mariano Reperger
+description: Add the separator character to the reference code

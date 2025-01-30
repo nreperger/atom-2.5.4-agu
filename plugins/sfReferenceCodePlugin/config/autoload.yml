@@ -1,0 +1,4 @@
+sf_reference_code_plugin:
+  class:    sfAutoloadPlugin
+  param:
+    lib_dir: "%SF_PLUGINS_DIR%/sfReferenceCodePlugin/lib"
